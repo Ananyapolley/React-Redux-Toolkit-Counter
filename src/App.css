@@ -1,0 +1,253 @@
+/* Background Gradient */
+.bg-gradient {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+  width: 100%;
+}
+
+/* Container Card */
+.outer-card {
+  width: 100%;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.outer-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2) !important;
+}
+
+/* Display Counter */
+.display-counter-box {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 30px 20px;
+  border-radius: 12px;
+  margin: 15px 0;
+  box-shadow: 0 8px 16px rgba(102, 126, 234, 0.3);
+}
+
+.letter-spacing {
+  letter-spacing: 2px;
+  font-size: 0.85rem;
+}
+
+/* Button Enhancements */
+.btn {
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+}
+
+.btn-primary {
+  background-color: #667eea;
+  border-color: #667eea;
+}
+
+.btn-primary:hover {
+  background-color: #5568d3;
+  border-color: #5568d3;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(102, 126, 234, 0.4);
+}
+
+.btn-success {
+  background-color: #10b981;
+  border-color: #10b981;
+}
+
+.btn-success:hover {
+  background-color: #059669;
+  border-color: #059669;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(16, 185, 129, 0.4);
+}
+
+.btn-warning {
+  background-color: #f59e0b;
+  border-color: #f59e0b;
+}
+
+.btn-warning:hover {
+  background-color: #d97706;
+  border-color: #d97706;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(245, 158, 11, 0.4);
+}
+
+.btn-info {
+  background-color: #06b6d4;
+  border-color: #06b6d4;
+}
+
+.btn-info:hover {
+  background-color: #0891b2;
+  border-color: #0891b2;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(6, 182, 212, 0.4);
+}
+
+.btn-danger {
+  background-color: #ef4444;
+  border-color: #ef4444;
+}
+
+.btn-danger:hover {
+  background-color: #dc2626;
+  border-color: #dc2626;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(239, 68, 68, 0.4);
+}
+
+/* Input Styling */
+.form-control {
+  border-radius: 8px;
+  border: 2px solid #e5e7eb;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+}
+
+.form-control:focus {
+  border-color: #667eea;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+/* Alert Styling */
+.alert {
+  border-radius: 8px;
+  border: none;
+  font-size: 1.1rem;
+}
+
+.alert-warning {
+  background-color: #fef3c7;
+  color: #92400e;
+}
+
+/* Text Enhancements */
+.text-primary {
+  color: #667eea !important;
+}
+
+h1, h2, h3 {
+  color: #1f2937;
+}
+
+/* Custom Button Size Classes */
+.btn-sm {
+  padding: 0.5rem 0.75rem;
+  font-size: 0.9rem;
+}
+
+.btn-md-lg {
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+}
+
+.btn-sm-md {
+  padding: 0.5rem 0.75rem;
+  font-size: 0.9rem;
+}
+
+/* Responsive Design */
+/* Smartphone (< 576px) */
+@media (max-width: 575.98px) {
+  .outer-card {
+    margin: 0;
+  }
+  
+  .btn-sm {
+    padding: 0.5rem 0.5rem;
+    font-size: 0.85rem;
+  }
+  
+  .btn-md-lg {
+    padding: 0.5rem 0.5rem;
+    font-size: 0.85rem;
+  }
+  
+  .display-counter-box {
+    padding: 20px 15px;
+    margin: 10px 0;
+  }
+  
+  .display-counter-box h2 {
+    font-size: 2.5rem;
+  }
+  
+  .letter-spacing {
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+  }
+  
+  h1 {
+    font-size: 1.75rem;
+  }
+  
+  p.lead {
+    font-size: 0.95rem;
+  }
+}
+
+/* Tablet (576px - 768px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .outer-card {
+    margin: 0;
+  }
+  
+  .btn-md-lg {
+    padding: 0.65rem 0.9rem;
+    font-size: 0.95rem;
+  }
+  
+  .display-counter-box {
+    padding: 25px 20px;
+    margin: 15px 0;
+  }
+  
+  .display-counter-box h2 {
+    font-size: 2.8rem;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+/* Tablet Landscape (768px - 1024px) */
+@media (min-width: 768px) and (max-width: 1023.98px) {
+  .btn-md-lg {
+    padding: 0.7rem 1rem;
+    font-size: 1rem;
+  }
+  
+  .display-counter-box {
+    padding: 30px 25px;
+    margin: 18px 0;
+  }
+  
+  .display-counter-box h2 {
+    font-size: 3rem;
+  }
+}
+
+/* Desktop (1024px and above) */
+@media (min-width: 1024px) {
+  .outer-card {
+    margin: 0;
+  }
+  
+  .btn-md-lg {
+    padding: 0.75rem 1.25rem;
+    font-size: 1rem;
+  }
+  
+  .display-counter-box {
+    padding: 40px 30px;
+    margin: 20px 0;
+  }
+  
+  .display-counter-box h2 {
+    font-size: 3.5rem;
+  }
+}
