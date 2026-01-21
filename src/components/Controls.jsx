@@ -83,6 +83,7 @@ const Controls = () => {
           >
             <i className="bi bi-plus"></i>
             <span className="d-none d-sm-inline ms-1">Add</span>
+            <span className="d-sm-none">+</span>
           </button>
           <button
             type="button"
@@ -91,6 +92,7 @@ const Controls = () => {
           >
             <i className="bi bi-dash"></i>
             <span className="d-none d-sm-inline ms-1">Subtract</span>
+            <span className="d-sm-none">-</span>
           </button>
         </div>
       </div>
